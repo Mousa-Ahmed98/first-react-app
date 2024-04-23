@@ -1,20 +1,16 @@
 
 import './App.css';
-
-import Header from './components/Header/Header';
-import AboutMe from './components/AboutMe/AboutMe';
-import Skills from './components/Skills/Skills';
-import Portfolio from './components/Portfolio/Portfolio';
-import Footer from './components/Footer/Footer';
+import { BrowserRouter } from 'react-router-dom';
+import { RouterPaths } from './components/RouterPaths/RouterPaths';
+import {NavBar} from './components/NavBar/NavBar'
 
 function App() {
   return (
       <>
-      <Header></Header>
-      <AboutMe></AboutMe>
-      <Skills></Skills>
-      <Portfolio></Portfolio>
-      <Footer></Footer>
+        <BrowserRouter>
+        <NavBar></NavBar>
+        <RouterPaths></RouterPaths>
+        </BrowserRouter>
       </>
   );
 }
