@@ -16,7 +16,8 @@ function AboutMe(){
       nemo qui earum quam laudantium error facere architecto necessitatibus
       omnis sit vel.
     </p>
-    <button className=" m-5 btn btn-primary col-4 align-align-self-center ">Download me</button>
+    <button className="  ">Download me</button>
+    <a href="http://localhost:3000/" download className="m-5 btn btn-primary col-4 align-align-self-center">Download Resume</a>
   </div>
 </div>
         </>
