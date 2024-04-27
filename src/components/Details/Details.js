@@ -12,13 +12,14 @@ export function Details(){
     }, []);
     return(
         <>
-        <div className="container mt-5">
+        
+        <div className="container mt-5 p-2">
       <div className="row justify-content-center">
-        <div className="col-md-8">
-          <div className="card shadow">
+        <div className="col-md-8 p-2">
+          <div className="card shadow p-3">
             <div className="row g-0">
               <div className="col-md-5">
-                <img src={`https://image.tmdb.org/t/p/w500/${movieDetails.backdrop_path}`} className="img-fluid rounded-start" alt="Movie Poster" />
+                <img src={`https://image.tmdb.org/t/p/w500/${movieDetails.backdrop_path}`} className="img-fluid rounded-start rounded" alt="Movie Poster" />
               </div>
               <div className="col-md-7">
                 <div className="card-body">
